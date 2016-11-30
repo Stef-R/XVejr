@@ -4,8 +4,57 @@
              xmlns:local="clr-namespace:Vejr"
              x:Class="Vejr.MainPage">
 
-  <Label Text="Welcome to Xamarin Forms!"
-           VerticalOptions="Center"
-           HorizontalOptions="Center" />
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition  Width="*"/>
+      <ColumnDefinition  Width="*"/>
+      <ColumnDefinition  Width="*"/>
+      <ColumnDefinition  Width="*"/>
 
+      <ColumnDefinition  Width="*"/>
+      <ColumnDefinition  Width="*"/>
+      <ColumnDefinition  Width="*"/>
+      <ColumnDefinition  Width="*"/>
+
+      <ColumnDefinition  Width="*"/>
+      <ColumnDefinition  Width="*"/>
+      <ColumnDefinition  Width="*"/>
+      <ColumnDefinition  Width="*"/>
+
+    </Grid.ColumnDefinitions>
+    <StackLayout 
+      Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="12">
+      <Label Text="Head (0,0)"/>
+      <Label Text="sub"/>
+      <Label Text="sub"/>
+    </StackLayout>
+    <Label
+      Text ="(0,1)"
+      Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3"/>
+    <Label
+       Text ="(3,1)"
+       Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="3"/>
+    <Label
+       Text ="(5,1)"
+       Grid.Row="1" Grid.Column="5" Grid.ColumnSpan="3"/>
+    <Label
+         Text ="(8,1)"
+         Grid.Row="1" Grid.Column="8" Grid.ColumnSpan="3"/>
+
+    <Label
+       Text ="(0,2)"
+       Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="4"/>
+    <Label
+       Text ="(4,2)"
+       Grid.Row="2" Grid.Column="4" Grid.ColumnSpan="4"/>
+    <Label
+       Text ="(8,2)"
+       Grid.Row="2" Grid.Column="8" Grid.ColumnSpan="4"/>
+
+  </Grid> 
 </ContentPage>
