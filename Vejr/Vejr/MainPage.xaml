@@ -29,31 +29,33 @@
     </Grid.ColumnDefinitions>
     <StackLayout 
       Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="12">
-      <Label Text="Head (0,0)"/>
-      <Label Text="sub"/>
-      <Label Text="sub"/>
+      <Label Text="Head (0,0) Byen "
+             FontSize="Large" />
+      <Label Text="subsub: Højde"/>
+      <Label Text="sub  Onsadag Dato"
+             FontSize="Small"/>
     </StackLayout>
     <Label
-      Text ="(0,1)"
+      Text ="(0,1)" BackgroundColor="Aqua"
       Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3"/>
     <Label
-       Text ="(3,1)"
+       Text ="(3,1)" BackgroundColor="Blue"
        Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="3"/>
     <Label
-       Text ="(5,1)"
-       Grid.Row="1" Grid.Column="5" Grid.ColumnSpan="3"/>
+       Text ="(6,1)" BackgroundColor="Fuchsia"
+       Grid.Row="1" Grid.Column="6" Grid.ColumnSpan="3"/>
     <Label
-         Text ="(8,1)"
-         Grid.Row="1" Grid.Column="8" Grid.ColumnSpan="3"/>
+         Text ="(9,1)" BackgroundColor="Lime"
+         Grid.Row="1" Grid.Column="9" Grid.ColumnSpan="3"/>
 
     <Label
-       Text ="(0,2)"
+       Text ="(0,2)" BackgroundColor="Green"
        Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="4"/>
     <Label
-       Text ="(4,2)"
+       Text ="(4,2)" BackgroundColor="Red"
        Grid.Row="2" Grid.Column="4" Grid.ColumnSpan="4"/>
     <Label
-       Text ="(8,2)"
+       Text ="(8,2)" BackgroundColor="Yellow"
        Grid.Row="2" Grid.Column="8" Grid.ColumnSpan="4"/>
 
   </Grid> 
