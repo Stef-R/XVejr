@@ -6,9 +6,9 @@
 
   <Grid>
     <Grid.RowDefinitions>
-      <RowDefinition Height="*" />
-      <RowDefinition Height="*" />
-      <RowDefinition Height="*" />
+      <RowDefinition Height="4*" />
+      <RowDefinition Height="6*" />
+      <RowDefinition Height="3*" />
     </Grid.RowDefinitions>
     <Grid.ColumnDefinitions>
       <ColumnDefinition  Width="*"/>
@@ -35,9 +35,20 @@
       <Label Text="sub  Onsadag Dato"
              FontSize="Small"/>
     </StackLayout>
-    <Label
-      Text ="(0,1)" BackgroundColor="Aqua"
-      Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3"/>
+    <StackLayout BackgroundColor="White"
+      Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3">
+       <Label       Text ="(0,1)" BackgroundColor="Yellow"  />
+       <BoxView BackgroundColor="Aqua"> 
+         
+       </BoxView>
+      <Label Text="85 %"/>
+      <Label Text="15 C¤"/>
+      <Label Text="NW"/>
+      <Label Text="UV"/>
+      <Label Text="M"/>
+      
+    </StackLayout>
+   
     <Label
        Text ="(3,1)" BackgroundColor="Blue"
        Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="3"/>
@@ -48,9 +59,15 @@
          Text ="(9,1)" BackgroundColor="Lime"
          Grid.Row="1" Grid.Column="9" Grid.ColumnSpan="3"/>
 
-    <Label
-       Text ="(0,2)" BackgroundColor="Green"
-       Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="4"/>
+    <StackLayout
+       BackgroundColor="White"
+       Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="4">
+      
+      
+      <Label Text ="(0,2)" TextColor="Blue"/>
+      <Label Text =" Box" TextColor="Lime"/>
+      <Label Text ="(0,2)" TextColor="Fuchsia"/>
+    </StackLayout>
     <Label
        Text ="(4,2)" BackgroundColor="Red"
        Grid.Row="2" Grid.Column="4" Grid.ColumnSpan="4"/>
